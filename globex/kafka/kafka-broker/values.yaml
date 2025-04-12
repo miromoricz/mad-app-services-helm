@@ -6,7 +6,7 @@ kafka:
   cluster:
     replicas: 1
   zookeeper:
-    replicas: 2
+    replicas: 3
     resources:
       limits:
         cpu: 100m
