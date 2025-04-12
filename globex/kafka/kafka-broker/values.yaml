@@ -16,7 +16,7 @@ kafka:
         memory: 200M
   config:
     autoCreateTopics: false
-    defaultReplicationFactor: 2
+    defaultReplicationFactor: 1
     offsetsTopicReplicationFactor: 2
     transactionStateLogReplicationFactor: 2
     transactionStateLogMinIsr: 2
